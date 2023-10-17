@@ -1,6 +1,6 @@
 from flask import Flask
 
-from routes import cron_blueprint
+from cron.routes import cron_blueprint
 
 
 app = Flask(__name__)

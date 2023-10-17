@@ -1,7 +1,7 @@
 from flask import Blueprint
 
 
-from controller import  get_all_api_users
+from cron.controller import  get_all_api_users
 
 cron_blueprint = Blueprint(
     'cron',
