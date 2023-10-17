@@ -1,5 +1,7 @@
+from http import HTTPStatus
 from json_placeholder import JsonPlaceholder
 from test_api_lh import TestApil
+
 
 json_placeholder = JsonPlaceholder()
 test_apil = TestApil()
@@ -21,4 +23,4 @@ def get_all_api_users():
     #     employee_id = employee['id']
     #     employees[employee_id] = employee
     
-    return employees
+    return HTTPStatus.OK
