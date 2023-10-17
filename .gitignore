@@ -1,0 +1,23 @@
+# PyCharm .idea directory
+\.idea/
+
+# Python
+*.pyc
+
+# Ansible LOCAL files
+#/ansible/envs/local/
+#/ansible/playbook.retry
+
+# Environment dependent files
+/app/local-development.json
+/app/local-development-pro.json
+/app/app.yaml
+/app/cron.yaml
+/app/queue.yaml
+/app/dispatch.yaml
+/app/client_secret.json
+/app/tasks.yaml
+/app/environment.cfg
+
+# Virtualenv directory
+/venv/
