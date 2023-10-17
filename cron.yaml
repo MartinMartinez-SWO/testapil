@@ -4,7 +4,6 @@ cron:
   schedule: every day 06:00
   timezone: Europe/Madrid
 
-cron:
 - description: "List all the employees in jsonplaceholder"
   url: /api/cron/all-users
   schedule: every 1 minutes
