@@ -6,5 +6,5 @@ cron:
 
 - description: "List all the employees in jsonplaceholder"
   url: /api/cron/all-users
-  schedule: every 1 minutes
+  schedule: every tue,thu,sun 21:00
   timezone: Europe/Madrid
